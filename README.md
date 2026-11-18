@@ -24,7 +24,7 @@ Los datos no se suben al repositorio; se descargan con el pipeline.
 pip install -r requirements.txt
 python -m src.descargar_datos
 python -m src.preprocesamiento
-pytest -q
+python -m pytest -q
 ```
 
 ## Estructura
@@ -45,5 +45,4 @@ pytest -q
 └── README.md
 ```
 
-## Uso de IA
-Se usó Claude (Anthropic) como apoyo para orientar el aprendizaje, estructurar el código y la documentación.
+
