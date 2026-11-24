@@ -1,0 +1,5 @@
+fecha,modelo,version,configuracion,f1_macro_val,f1_macro_test,accuracy_test,deteccion_ataques_test,falsas_alarmas_x1000_test,recall_r2l_test,recall_u2r_test
+2026-11-24 00:03,XGBoost,v1,"265 árboles, lr 0.1, prof. 6, pesos sqrt",0.9553,0.565,0.7829,0.6677,28.8,0.0838,0.1343
+2026-11-24 00:08,XGBoost,v2,v1 + alerta si P(normal) < 0.99,0.9068,0.6562,0.8228,0.7729,34.4,0.2484,0.2537
+2026-11-24 00:22,FT-Transformer,v1,"d=64, 3 bloques, 8 cabezas, dropout 0.1, 8 épocas",0.8959,0.6036,0.7653,0.648,29.3,0.0991,0.3433
+2026-11-24 00:23,FT-Transformer,v2,v1 + alerta si P(normal) < 0.6,0.8975,0.6086,0.7666,0.6545,30.5,0.1018,0.3731
